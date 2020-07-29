@@ -1,0 +1,53 @@
+#main {
+    background-color: #E8E8E8;
+}
+
+#title {
+    justify-content: center;
+    font-family: Optima, sans-serif;
+    font-size: 52px;
+    text-align: center;
+    display: flex;
+}
+
+#quote {
+    justify-content: center;
+    font-family: Optima, sans-serif;
+    text-align: center;
+    display: flex;
+}
+
+#img-div {
+    justify-content: center;
+    display: grid;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#tribute-info {
+    padding-left: 900px;
+    text-align: center;
+    justify-content: center;
+    list-style-position: inside;
+    text-align: left;
+    /* margin-right: 50px;  */
+}
+
+ul li {
+    padding-bottom: 25px;
+}
+
+#wiki {
+    text-align: center;
+}
