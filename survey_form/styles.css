@@ -1,0 +1,54 @@
+#main {
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/22/15/43/beach-5429182_1280.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: lightgray;
+    opacity: 0.5;
+    justify-content: center;
+}
+
+#main {
+    text-align: center;
+    color: #FF0000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+
+input[type=text],
+select {
+    width: 10%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#email {
+    width: 10%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#number {
+    width: 10%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    justify-content: center;
+}
