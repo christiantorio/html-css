@@ -85,10 +85,9 @@
             background-color: #f4511e;
         }
         
-        #company-logo {
+        #header-img {
             width: 20px;
-            height;
-            35px;
+            height: 35px;
         }
         
         .item h4 {
@@ -240,17 +239,18 @@
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" id="header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
 
-                <a class="navbar-brand" href="#myPage"><img id="company-logo" src="https://images.unsplash.com/photo-1516967124798-10656f7dca28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Holding Hearts Company Logo">Holding Hearts</a>
+                <a class="navbar-brand" href="#myPage"><img id="header-img" src="https://images.unsplash.com/photo-1516967124798-10656f7dca28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Holding Hearts Company Logo">Holding Hearts</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -286,7 +286,7 @@
                 <h4>Holding Hearts is dedicated to helping families in need during the current pandemic. Our goal is to help families find employment, as well as, various other services.</h4><br>
                 <p>Holding hearts was created by a group of students that wanted to get involved in their commnunities. At first, they helped familiy and friends by filtering jobs similar to their current skill sets. Through word-of-mouth, more people requested
                     for their assistance. As the pandemic continued on, they realized that they could help more than just family and friends. This is where they realized that they needed to reach out to a larger audience.</p>
-                <br><a href="#" id="mailbutton" class="btn btn-default btn-lg">Get in touch!</a>
+                <br><a href="https://www.freecodecamp.com/email-submit" id="submit" class="btn btn-default btn-lg">Get in touch!</a>
             </div>
             <div class="col-sm-4">
                 <span class="glyphicon glyphicon-heart logo"></span>
@@ -395,13 +395,13 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+                    <h4>"These guys are great. They were able to help me find a new career path during the covid pandemic "<br><span>Michael Roe </br> Hayward, CA</span></h4>
                 </div>
                 <div class="item">
-                    <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+                    <h4>"One word... WOW!!"<br><span>John Doe </br>Fremont, CA</span></h4>
                 </div>
                 <div class="item">
-                    <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+                    <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing </br>Oakland, CA</span></h4>
                 </div>
             </div>
 
@@ -490,9 +490,9 @@
         <div class="row">
             <div class="col-sm-5">
                 <p>Contact us and we'll get back to you within 24 hours.</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> San Francisco, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span> 1(415)987-6543</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> info@holdinghearts.org</p>
             </div>
             <div class="col-sm-7 slideanim">
                 <div class="row">
@@ -506,7 +506,7 @@
                 <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
                 <div class="row">
                     <div class="col-sm-12 form-group">
-                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                        <a href="https://www.freecodecamp.com/email-submit" id="submit" class="btn btn-default btn-lg">Submit</a>
                     </div>
                 </div>
             </div>
