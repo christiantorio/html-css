@@ -241,7 +241,7 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top nav-link">
         <div class="container">
             <div class="navbar-header" id="header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -252,8 +252,8 @@
 
                 <a class="navbar-brand" href="#myPage"><img id="header-img" src="https://images.unsplash.com/photo-1516967124798-10656f7dca28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Holding Hearts Company Logo">Holding Hearts</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
+            <div class="collapse navbar-collapse nav-link" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right nav-link">
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#services">SERVICES</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
@@ -468,19 +468,21 @@
                 <p><span class="glyphicon glyphicon-envelope"></span> info@holdinghearts.org</p>
             </div>
             <div class="col-sm-7 slideanim">
-                <div class="row">
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                <form action="" id="form">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
                     </div>
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                    </div>
-                </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-                <div class="row">
-                    <div class="col-sm-12 form-group">
-                        <a href="https://www.freecodecamp.com/email-submit" id="submit" class="btn btn-default btn-lg">Submit</a>
-                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <a href="https://www.freecodecamp.com/email-submit" id="submit" class="btn btn-default btn-lg">Submit</a>
+                        </div>
+                </form>
                 </div>
             </div>
         </div>
