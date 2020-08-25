@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
@@ -16,22 +6,25 @@
         <header id="header">
             <h2> Ansible</h2>
             <img id="header-img" src="https://logos-download.com/wp-content/uploads/2016/10/Ansible_logo.png" alt="Ansible logo">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#intro">Introduction</a>
+                <a href="#know">What you should know</a>
+                <a class="nav-link" href="#ansible">What's Ansible</a>
+                <a class="nav-link" href="#inventory">Inventory</a>
+                <a href="#adhoc">Ad-hoc commands</a>
+                <a class="nav-link" href="#connection">Connection Methods</a>
+                <a class="nav-link" href="#cli">Command line tools</a>
+                <a class="nav-link" href="#playbooks">Playbooks</a>
+                <a class="nav-link" href="#priv">Privelege Escaltion</a>
+                <a class="nav-link" href="#vault">Ansible Vault</a>
+                <a class="nav-link" href="#windows">Windows</a>
+            </nav>
         </header>
-        <a href="#intro">Introduction</a>
-        <a href="#know">What you should know</a>
-        <a href="#ansible">What's Ansible</a>
-        <a href="#inventory">Inventory</a>
-        <a href="#adhoc">Ad-hoc commands</a>
-        <a href="#connection">Connection Methods</a>
-        <a href="#cli">Command line tools</a>
-        <a href="#playbooks">Playbooks</a>
-        <a href="#priv">Privelege Escaltion</a>
-        <a href="#vault">Ansible Vault</a>
-        <a href="#windows">Windows</a>
     </div>
-    <div class="main">
+    <div class="main flex-container">
         <div id="intro">
             <h2 id="header">Introduction</h2>
+            <iframe allowtransparency="true" title="Wistia video player" allowFullscreen frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" src="https://fast.wistia.net/embed/iframe/qrqfj371b6" width="400" height="225" id="video"></iframe>
             <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
                 Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
             <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
@@ -151,8 +144,14 @@
             <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
                 Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         </div>
+        <form action="" id=form>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email"></br>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"> 
+          </textarea><br><br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
     </div>
 
 </body>
-
-</html>
